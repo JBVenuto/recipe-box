@@ -30,18 +30,18 @@ namespace RecipeBoxMVC
             services.AddControllersWithViews();
 
             services.AddDbContext<RecipeBoxContext>(options =>
-        {
-            var connectionString = Configuration.GetConnectionString("RecipeBoxContext");
+            {
+                var connectionString = Configuration.GetConnectionString("RecipeBoxContext");
 
-            if (Environment.IsDevelopment())
-            {
-                options.UseSqlite(connectionString);
-            }
-            else
-            {
-                options.UseSqlServer(connectionString);
-            }
-        });
+                if (Environment.IsDevelopment())
+                {
+                    options.UseSqlite(connectionString);
+                }
+                else
+                {
+                    options.UseSqlServer(connectionString);
+                }
+            });
 
         }
 
