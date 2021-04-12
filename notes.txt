@@ -1,4 +1,2 @@
-Resume from `Register the Database`
-in the `Add a model` section of the tutorial
-
-https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-5.0&tabs=visual-studio-code#register-the-database-context
+Resume from Add a New Field
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/new-field?view=aspnetcore-5.0&tabs=visual-studio
