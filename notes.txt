@@ -1,2 +1,3 @@
-Resume from Add a New Field
-https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/new-field?view=aspnetcore-5.0&tabs=visual-studio
+Add authentication next
+
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-5.0&tabs=netcore-cli

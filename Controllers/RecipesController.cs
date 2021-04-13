@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RecipeBox.Data;
 using RecipeBox.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RecipeBoxMVC.Controllers
 {
@@ -52,6 +53,8 @@ namespace RecipeBoxMVC.Controllers
         }
 
         // GET: Recipes/Create
+        // Authorize requires user to be logged in to add new recipe
+        // [Authorize]
         public IActionResult Create()
         {
             return View();
