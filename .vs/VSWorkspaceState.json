@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\RecipeBoxAuth",
-    "\\RecipeBoxAuth\\Models"
+    ""
   ],
-  "SelectedNode": "\\RecipeBoxAuth\\Models\\Recipe.cs",
+  "SelectedNode": "\\RecipeBoxAuth.csproj",
   "PreviewInSolutionExplorer": false
 }
